@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link href="./_app/immutable/assets/2.CUTsIxhq.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.DsvyDJvT.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/KuOKHItd.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/lT-RxFBp.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/aSP-4cKJ.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.BYku4ZkV.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/C8iZWwZM.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/qP4eT6eP.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/TNe8tkM0.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.pOLZlhx6.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.BtW1Ty_-.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents"><!--[--><!--[--><!----><!----><div class="main svelte-149da1"><h1>Rubik's Cube Timer <span class="icon-park-outline--cube svelte-149da1"></span></h1> <p>State = 0</p> <h1>H <span class="uil--space-key svelte-149da1" style="transform: scale(1); transition: transform 0.1s linear;"></span> L D</h1> <p class="timer svelte-149da1"><span class="material-symbols--timer svelte-149da1"></span> <!---->00:00<span class='small'>.00</span><!----></p> <p class="copy"><button id="bu_copy" class="btn btn-lg btn-outline-secondary" disabled>Copy <span class="solar--copy-bold svelte-149da1"></span></button></p> <div id="liveAlertPlaceholder"></div> <button id="bu_reset" class="btn btn-lg btn-outline-secondary" disabled>Reset <!--[!--><!--]--><!----></button> <p class="settings"></p></div><!----><!----><!----><!--]--> <!--[!--><!--]--><!--]-->
+			
+			<script>
+				{
+					__sveltekit_2h4b11 = {
+						base: new URL(".", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("./_app/immutable/entry/start.DsvyDJvT.js"),
+						import("./_app/immutable/entry/app.BYku4ZkV.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data: [null,null],
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+		<style>
+			html,
+			body {
+    			margin: 0;
+			}
+			.main {
+    	font-family: Quicksand;
+			}
+			.timer {
+    	font-family: "IBM Plex Mono";
+			}
+		</style>
+	</body>
+</html>
